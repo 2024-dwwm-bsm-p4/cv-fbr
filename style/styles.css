@@ -1,0 +1,284 @@
+body {
+  font-size: 16px;
+  background-color: green;
+
+  .Profile {
+    order: 1;
+  }
+
+  .CV {
+    order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: orange;
+
+    .Profile {
+      order: 1;
+    }
+
+    .CV {
+      order: 2;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    background-color: red;
+
+    .Colonnes {
+      flex-direction: column;
+
+      .CV {
+        order: 1;
+      }
+
+      .Profile {
+        order: 2;
+      }
+
+      .Informations {
+        order: 4;
+      }
+    }
+  }
+}
+
+.Header {
+  .HeaderContent {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+
+    .HeaderText {
+      text-align: center;
+    }
+
+    #Photo {
+      display: block;
+      width: 150px;
+      height: auto;
+      list-style-type: none;
+    }
+  }
+}
+
+.Colonnes {
+  display: flex;
+
+  .CV {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .AboutMe {
+    display: flex;
+    flex-direction: column;
+
+    .AboutMeText {
+      display: flex;
+    }
+  }
+
+  .Experiences {
+    display: flex;
+    flex-direction: column;
+
+    .ExperiencesText {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .Formations {
+    display: flex;
+    flex-direction: column;
+
+    .FormationsText {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .Profile {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .Informations {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+    .InformationsGras {
+      font-weight: bold;
+      align-items: flex-start;
+    }
+
+    .InformationsDesc {
+      align-items: flex-end;
+    }
+
+    .Adresse {
+      display: flex;
+      align-items: flex-start;
+
+      .AdresseContent {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      #LocationIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .AdresseText {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .Email {
+      display: flex;
+      align-items: flex-start;
+
+      .EmailContent {
+        display: flex;
+        align-items: center;
+      }
+
+      #EmailIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .EmailText {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .Telephone {
+      display: flex;
+      align-items: flex-start;
+
+      .TelephoneContent {
+        display: flex;
+        align-items: center;
+      }
+
+      #TelephoneIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .TelephoneText {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .Naissance {
+      display: flex;
+      align-items: flex-start;
+
+      .NaissanceContent {
+        display: flex;
+        align-items: center;
+      }
+
+      #CalendarIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .NaissanceText {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .Permis {
+      display: flex;
+      align-items: flex-start;
+
+      .PermisContent {
+        display: flex;
+        align-items: center;
+      }
+
+      #PermisIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .PermisText {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .Reconnaissance {
+      display: flex;
+      align-items: flex-start;
+
+      .ReconnaissanceContent {
+        display: flex;
+        align-items: center;
+      }
+
+      #ManIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      .ReconnaissanceText {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .Competences {
+    display: flex;
+
+    .CompetencesText {
+      display: flex;
+    }
+  }
+
+  .Langues {
+    display: flex;
+
+    .LanguesText {
+      display: flex;
+    }
+  }
+
+  .Interets {
+    display: flex;
+
+    .InteretsText {
+      display: flex;
+    }
+  }
+}
