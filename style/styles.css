@@ -53,10 +53,11 @@ body {
   .HeaderContent {
     background-color: white;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
     .HeaderText {
       text-align: center;
+      margin: auto;
     }
 
     #Photo {
@@ -279,6 +280,31 @@ body {
 
     .InteretsText {
       display: flex;
+    }
+  }
+
+  .Liens {
+    display: flex;
+    flex-direction: column;
+
+    .LiensContent {
+      display: flex;
+
+      .LiensList {
+        list-style-type: none;
+      }
+
+      #GitHubIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
+
+      #LinkedInIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+      }
     }
   }
 }
