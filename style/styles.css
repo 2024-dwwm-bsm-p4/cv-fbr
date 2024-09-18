@@ -20,10 +20,12 @@ body {
 
   .Profile {
     order: 1;
+    width: 50%;
   }
 
   .CV {
     order: 2;
+    width: 100%;
   }
 }
 
@@ -67,10 +69,12 @@ body {
 
     .Profile {
       order: 1;
+      width: 85%;
     }
 
     .CV {
       order: 2;
+      width: 85%;
     }
   }
 }
@@ -346,6 +350,7 @@ body {
 
   .Competences {
     display: flex;
+    flex-direction: column;
 
     .CompetencesTitle {
       border-bottom: 2px solid black;
@@ -358,12 +363,13 @@ body {
     }
 
     .CompetencesText {
-      display: flex;
+      flex-direction: column;
     }
   }
 
   .Langues {
     display: flex;
+    flex-direction: column;
 
     .LanguesTitle {
       border-bottom: 2px solid black;
@@ -376,12 +382,13 @@ body {
     }
 
     .LanguesText {
-      display: flex;
+      flex-direction: column;
     }
   }
 
   .Interets {
     display: flex;
+    flex-direction: column;
 
     .InteretsTitle {
       border-bottom: 2px solid black;
@@ -394,7 +401,7 @@ body {
     }
 
     .InteretsText {
-      display: flex;
+      flex-direction: column;
     }
   }
 
