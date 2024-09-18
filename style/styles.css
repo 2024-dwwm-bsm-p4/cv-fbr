@@ -15,6 +15,13 @@ body {
     }
   }
 
+  .Colonnes {
+    #SortDown {
+      width: 15px;
+      margin-right: 10px;
+    }
+  }
+
   .Profile {
     order: 1;
     width: 50%;
