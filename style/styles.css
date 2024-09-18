@@ -143,6 +143,11 @@ body {
       border-bottom: 2px solid black;
     }
 
+    .AboutMeTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
+    }
+
     .AboutMeText {
       display: flex;
     }
@@ -154,6 +159,11 @@ body {
 
     .ExperiencesTitle {
       border-bottom: 2px solid black;
+    }
+
+    .ExperiencesTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
     }
 
     .ExperiencesText {
@@ -168,6 +178,11 @@ body {
 
     .FormationsTitle {
       border-bottom: 2px solid black;
+    }
+
+    .FormationsTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
     }
 
     .FormationsText {
@@ -189,6 +204,11 @@ body {
 
     .InformationsTitle {
       border-bottom: 2px solid black;
+    }
+
+    .InformationsTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
     }
 
     .InformationsGras {
@@ -332,6 +352,11 @@ body {
       width: 100%;
     }
 
+    .CompetencesTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
+    }
+
     .CompetencesText {
       display: flex;
     }
@@ -343,6 +368,11 @@ body {
     .LanguesTitle {
       border-bottom: 2px solid black;
       width: 100%;
+    }
+
+    .LanguesTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
     }
 
     .LanguesText {
@@ -358,6 +388,11 @@ body {
       width: 100%;
     }
 
+    .InteretsTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
+    }
+
     .InteretsText {
       display: flex;
     }
@@ -369,6 +404,11 @@ body {
 
     .LiensTitle {
       border-bottom: 2px solid black;
+    }
+
+    .LiensTitle:hover {
+      background-color: yellow;
+      cursor: pointer;
     }
 
     .LiensContent {
@@ -384,10 +424,19 @@ body {
         margin-right: 10px;
       }
 
+      #GitHubIcon:hover {
+        background-color: yellow;
+        border-radius: 100%;
+      }
+
       #LinkedInIcon {
         width: 25px;
         height: auto;
         margin-right: 10px;
+      }
+
+      #LinkedInIcon:hover {
+        background-color: yellow;
       }
     }
   }
