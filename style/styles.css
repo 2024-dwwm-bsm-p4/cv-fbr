@@ -1,7 +1,22 @@
 body {
   font-size: 16px;
-  background: url(../img/cv-fbr-background.jpg);
-  background-size: 100% 100%;
+
+  background: linear-gradient(270deg, #a32bff, #bc64ff, #d6a1ff);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  .Header {
+    .HeaderContent {
+      #Photo {
+        width: 200px;
+        height: auto;
+        margin-left: 15px;
+      }
+    }
+  }
 
   .Profile {
     order: 1;
@@ -9,6 +24,40 @@ body {
 
   .CV {
     order: 2;
+  }
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -32,6 +81,15 @@ body {
     font-size: 12px;
     background-color: red;
 
+    .Header {
+      .HeaderContent {
+        #Photo {
+          width: 125px;
+          height: auto;
+          margin-left: 0px;
+        }
+      }
+    }
     .Colonnes {
       flex-direction: column;
 
@@ -58,13 +116,14 @@ body {
     .HeaderText {
       text-align: center;
       margin: auto;
+      border: 2px solid black;
+      width: 50%;
     }
 
     #Photo {
       display: block;
-      width: 150px;
-      height: auto;
       list-style-type: none;
+      border-radius: 100%;
     }
   }
 }
