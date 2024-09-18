@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
 
-  background: linear-gradient(270deg, #a32bff, #bc64ff, #d6a1ff);
+  background: linear-gradient(270deg, #a32bff, #ca84ff, #dbabff);
   background-size: 600% 600%;
 
   -webkit-animation: AnimationName 30s ease infinite;
@@ -64,7 +64,6 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 14px;
-    background-color: orange;
 
     .Profile {
       order: 1;
@@ -79,7 +78,6 @@ body {
 @media (max-width: 480px) {
   body {
     font-size: 12px;
-    background-color: red;
 
     .Header {
       .HeaderContent {
@@ -141,6 +139,10 @@ body {
     display: flex;
     flex-direction: column;
 
+    .AboutMeTitle {
+      border-bottom: 2px solid black;
+    }
+
     .AboutMeText {
       display: flex;
     }
@@ -149,6 +151,10 @@ body {
   .Experiences {
     display: flex;
     flex-direction: column;
+
+    .ExperiencesTitle {
+      border-bottom: 2px solid black;
+    }
 
     .ExperiencesText {
       display: flex;
@@ -159,6 +165,10 @@ body {
   .Formations {
     display: flex;
     flex-direction: column;
+
+    .FormationsTitle {
+      border-bottom: 2px solid black;
+    }
 
     .FormationsText {
       display: flex;
@@ -176,6 +186,10 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
+
+    .InformationsTitle {
+      border-bottom: 2px solid black;
+    }
 
     .InformationsGras {
       font-weight: bold;
@@ -313,6 +327,11 @@ body {
   .Competences {
     display: flex;
 
+    .CompetencesTitle {
+      border-bottom: 2px solid black;
+      width: 100%;
+    }
+
     .CompetencesText {
       display: flex;
     }
@@ -320,6 +339,11 @@ body {
 
   .Langues {
     display: flex;
+
+    .LanguesTitle {
+      border-bottom: 2px solid black;
+      width: 100%;
+    }
 
     .LanguesText {
       display: flex;
@@ -329,6 +353,11 @@ body {
   .Interets {
     display: flex;
 
+    .InteretsTitle {
+      border-bottom: 2px solid black;
+      width: 100%;
+    }
+
     .InteretsText {
       display: flex;
     }
@@ -337,6 +366,10 @@ body {
   .Liens {
     display: flex;
     flex-direction: column;
+
+    .LiensTitle {
+      border-bottom: 2px solid black;
+    }
 
     .LiensContent {
       display: flex;
