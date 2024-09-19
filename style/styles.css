@@ -7,6 +7,8 @@ body {
 
   .Header {
     .HeaderContent {
+      margin-top: 15px;
+
       #Photo {
         width: 200px;
         height: auto;
