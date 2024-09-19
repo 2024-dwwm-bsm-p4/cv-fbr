@@ -38,6 +38,16 @@ body {
 .DarkMode {
   background: url(../img/cv-fbr-darkbackground.webp);
   color: white;
+  background-size: 300% auto;
+  background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    background-size: 600%;
+  }
+
+  @media (max-width: 480px) {
+    background-size: 1550% auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -139,6 +149,7 @@ body {
 #LightBulbIcon:hover {
   background-color: yellow;
   cursor: pointer;
+  border-radius: 10%;
 }
 
 .Colonnes {
