@@ -15,10 +15,10 @@ document.querySelectorAll(".ExperiencesTitle").forEach((title) => {
     const content = title.nextElementSibling;
 
     if (content.style.display === "none") {
-        content.style.display = "block";
-      } else {
-        content.style.display = "none";
-      }
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   });
 });
 
@@ -27,10 +27,10 @@ document.querySelectorAll(".FormationsTitle").forEach((title) => {
     const content = title.nextElementSibling;
 
     if (content.style.display === "none") {
-        content.style.display = "block";
-      } else {
-        content.style.display = "none";
-      }
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   });
 });
 
@@ -39,57 +39,63 @@ document.querySelectorAll(".InformationsTitle").forEach((title) => {
     const content = title.nextElementSibling;
 
     if (content.style.display === "none") {
-        content.style.display = "block";
-      } else {
-        content.style.display = "none";
-      }
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   });
 });
 
 document.querySelectorAll(".CompetencesTitle").forEach((title) => {
-    title.addEventListener("click", () => {
-      const content = title.nextElementSibling;
-  
-       if (content.style.display === "none") {
-         content.style.display = "block";
-       } else {
-         content.style.display = "none";
-       }
-    });
-  });
+  title.addEventListener("click", () => {
+    const content = title.nextElementSibling;
 
-  document.querySelectorAll(".LanguesTitle").forEach((title) => {
-    title.addEventListener("click", () => {
-      const content = title.nextElementSibling;
-  
-       if (content.style.display === "none") {
-         content.style.display = "block";
-       } else {
-         content.style.display = "none";
-       }
-    });
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   });
+});
 
-  document.querySelectorAll(".InteretsTitle").forEach((title) => {
-    title.addEventListener("click", () => {
-      const content = title.nextElementSibling;
-  
-       if (content.style.display === "none") {
-         content.style.display = "block";
-       } else {
-         content.style.display = "none";
-       }
-    });
-  });
+document.querySelectorAll(".LanguesTitle").forEach((title) => {
+  title.addEventListener("click", () => {
+    const content = title.nextElementSibling;
 
-  document.querySelectorAll(".LiensTitle").forEach((title) => {
-    title.addEventListener("click", () => {
-      const content = title.nextElementSibling;
-  
-       if (content.style.display === "none") {
-         content.style.display = "block";
-       } else {
-         content.style.display = "none";
-       }
-    });
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   });
+});
+
+document.querySelectorAll(".InteretsTitle").forEach((title) => {
+  title.addEventListener("click", () => {
+    const content = title.nextElementSibling;
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  });
+});
+
+document.querySelectorAll(".LiensTitle").forEach((title) => {
+  title.addEventListener("click", () => {
+    const content = title.nextElementSibling;
+
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  });
+});
+
+const SwitchMode = document.querySelector("#LightBulbIcon");
+const Body = document.querySelector("body");
+SwitchMode.addEventListener("click", () => {
+  Body.classList.toggle("DarkMode")
+});
