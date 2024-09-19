@@ -41,6 +41,19 @@ body {
   background-size: 300% auto;
   background-repeat: no-repeat;
 
+  #LocationIcon,
+  #SortDown,
+  #LightBulbIcon,
+  #EmailIcon,
+  #TelephoneIcon,
+  #CalendarIcon,
+  #PermisIcon,
+  #ManIcon,
+  #GitHubIcon,
+  #LinkedInIcon {
+    fill: white;
+  }
+
   @media (max-width: 768px) {
     background-size: 600%;
   }
