@@ -121,6 +121,25 @@ body {
   }
 }
 
+.SombreClairMode {
+  .SombreClairContent {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#LightBulbIcon {
+  display: block;
+  width: 25px;
+  height: auto;
+  margin: auto;
+}
+
+#LightBulbIcon:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
 .Colonnes {
   display: flex;
 
