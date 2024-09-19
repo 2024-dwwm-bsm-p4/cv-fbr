@@ -97,5 +97,5 @@ document.querySelectorAll(".LiensTitle").forEach((title) => {
 const SwitchMode = document.querySelector("#LightBulbIcon");
 const Body = document.querySelector("body");
 SwitchMode.addEventListener("click", () => {
-  Body.classList.toggle("DarkMode")
+  Body.classList.toggle("DarkMode");
 });
