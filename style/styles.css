@@ -35,6 +35,22 @@ body {
   }
 }
 
+.AboutMeTitle,
+.ExperiencesTitle,
+.FormationsTitle,
+.InformationsTitle,
+.CompetencesTitle,
+.LanguesTitle,
+.InteretsTitle,
+.LiensTitle {
+  border-bottom: 2px solid black;
+}
+
+.HeaderText {
+  border-top: 2px solid black;
+      border-bottom: 2px solid black;
+}
+
 .DarkMode {
   background: url(../img/cv-fbr-darkbackground.webp);
   color: white;
@@ -52,6 +68,22 @@ body {
   #GitHubIcon,
   #LinkedInIcon {
     fill: white;
+  }
+
+  .InformationsTitle,
+  .AboutMeTitle,
+  .ExperiencesTitle,
+  .CompetencesTitle,
+  .LanguesTitle,
+  .FormationsTitle,
+  .InteretsTitle,
+  .LiensTitle {
+    border-bottom: 2px solid white;
+  }
+
+  .HeaderText {
+    border-top: 2px solid white;
+        border-bottom: 2px solid white;
   }
 
   @media (max-width: 768px) {
@@ -132,8 +164,7 @@ body {
     .HeaderText {
       text-align: center;
       margin: auto;
-      border-top: 2px solid black;
-      border-bottom: 2px solid black;
+
       width: 50%;
     }
 
@@ -178,12 +209,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    .AboutMeTitle {
-      border-bottom: 2px solid black;
-    }
-
     .AboutMeTitle:hover {
-      background-color:rgb(255, 179, 0);
+      background-color: rgb(255, 179, 0);
       cursor: pointer;
     }
 
@@ -195,10 +222,6 @@ body {
   .Experiences {
     display: flex;
     flex-direction: column;
-
-    .ExperiencesTitle {
-      border-bottom: 2px solid black;
-    }
 
     .ExperiencesTitle:hover {
       background-color: rgb(255, 179, 0);
@@ -214,10 +237,6 @@ body {
   .Formations {
     display: flex;
     flex-direction: column;
-
-    .FormationsTitle {
-      border-bottom: 2px solid black;
-    }
 
     .FormationsTitle:hover {
       background-color: rgb(255, 179, 0);
@@ -240,10 +259,6 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-
-    .InformationsTitle {
-      border-bottom: 2px solid black;
-    }
 
     .InformationsTitle:hover {
       background-color: rgb(255, 179, 0);
@@ -387,11 +402,6 @@ body {
     display: flex;
     flex-direction: column;
 
-    .CompetencesTitle {
-      border-bottom: 2px solid black;
-      width: 100%;
-    }
-
     .CompetencesTitle:hover {
       background-color: rgb(255, 179, 0);
       cursor: pointer;
@@ -405,11 +415,6 @@ body {
   .Langues {
     display: flex;
     flex-direction: column;
-
-    .LanguesTitle {
-      border-bottom: 2px solid black;
-      width: 100%;
-    }
 
     .LanguesTitle:hover {
       background-color: rgb(255, 179, 0);
@@ -425,11 +430,6 @@ body {
     display: flex;
     flex-direction: column;
 
-    .InteretsTitle {
-      border-bottom: 2px solid black;
-      width: 100%;
-    }
-
     .InteretsTitle:hover {
       background-color: rgb(255, 179, 0);
       cursor: pointer;
@@ -443,10 +443,6 @@ body {
   .Liens {
     display: flex;
     flex-direction: column;
-
-    .LiensTitle {
-      border-bottom: 2px solid black;
-    }
 
     .LiensTitle:hover {
       background-color: rgb(255, 179, 0);
