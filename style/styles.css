@@ -472,3 +472,54 @@ body {
     }
   }
 }
+
+@keyframes slideInFromRight {
+  0% {
+      transform: translateX(100%); /* Positionne le texte en dehors de l'écran à droite */
+      opacity: 0; /* Rendre le texte transparent */
+  }
+  100% {
+      transform: translateX(0); /* Retourne à la position d'origine */
+      opacity: 1; /* Rendre le texte visible */
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%); /* Positionne le texte en dehors de l'écran à gauche */
+      opacity: 0; /* Rendre le texte transparent */
+  }
+  100% {
+      transform: translateX(0); /* Retourne à la position d'origine */
+      opacity: 1; /* Rendre le texte visible */
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+      transform: translateY(-100%); /* Positionne le texte en dehors de l'écran en haut */
+      opacity: 0; /* Rendre le texte transparent */
+  }
+  100% {
+      transform: translateY(0); /* Retourne à la position d'origine */
+      opacity: 1; /* Rendre le texte visible */
+  }
+}
+
+.AboutMe,
+.Experiences,
+.Formations {
+  animation: slideInFromRight 1s ease-out forwards; /* Applique l'animation */
+}
+
+.Informations,
+.Competences,
+.Langues,
+.Interets,
+.Liens {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.Header {
+  animation: slideInFromTop 1s ease-out forwards;
+}
